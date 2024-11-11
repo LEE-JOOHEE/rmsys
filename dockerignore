@@ -1,0 +1,6 @@
+.git
+.gitignore
+pakage-lock.json
+
+node_modules
+build

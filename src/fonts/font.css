@@ -1,0 +1,245 @@
+/* font */
+@font-face {
+  font-family: "pretendard-100";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/Pretendard-Thin.woff) format("woff2");
+}
+
+@font-face {
+  font-family: "pretendard-200";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/Pretendard-ExtraLight.woff) format("woff2");
+}
+
+@font-face {
+  font-family: "pretendard-300";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Pretendard-Light.woff) format("woff2");
+}
+
+@font-face {
+  font-family: "pretendard-400";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Pretendard-Regular.woff) format("woff2");
+}
+
+@font-face {
+  font-family: "pretendard-500";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Pretendard-Medium.woff) format("woff2");
+}
+
+@font-face {
+  font-family: "pretendard-600";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Pretendard-SemiBold.woff) format("woff2");
+}
+
+@font-face {
+  font-family: "pretendard-700";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Pretendard-Bold.woff) format("woff2");
+}
+
+@font-face {
+  font-family: "pretendard-800";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/Pretendard-ExtraBold.woff) format("woff2");
+}
+
+@font-face {
+  font-family: "pretendard-900";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Pretendard-Black.woff) format("woff2");
+}
+
+/* font-reset */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "pretendard-400";
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* font-Title */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "pretendard-700";
+  line-height: 150%;
+}
+
+h1,
+.h1 {
+  /* font-size: 32px; */
+  font-size: 2rem;
+}
+
+h2,
+.h2 {
+  /* font-size: 24px; */
+  font-size: 1.5rem;
+}
+
+h3,
+.h3 {
+  /* font-size: 18px; */
+  font-size: 1.125rem;
+}
+
+h4,
+.h4 {
+  /* font-size: 16px; */
+  font-size: 1rem;
+}
+
+h5,
+.h5 {
+  /* font-size: 14px; */
+  font-size: 0.875rem;
+}
+
+h6,
+.h6 {
+  /* font-size: 12px; */
+  font-size: 0.75rem;
+}
+
+/* font-set */
+[class^="font-10"] {
+  font-size: 0.625rem;
+}
+[class^="font-11"] {
+  font-size: 0.688rem;
+}
+[class^="font-12"] {
+  font-size: 0.75rem;
+}
+[class^="font-13"] {
+  font-size: 0.813rem;
+}
+[class^="font-14"] {
+  font-size: 0.875rem;
+}
+[class^="font-15"] {
+  font-size: 0.938rem;
+}
+[class^="font-16"] {
+  font-size: 1rem;
+}
+[class^="font-17"] {
+  font-size: 1.063rem;
+}
+[class^="font-18"] {
+  font-size: 1.125rem;
+}
+[class^="font-19"] {
+  font-size: 1.188rem;
+}
+[class^="font-20"] {
+  font-size: 1.25rem;
+}
+[class^="font-21"] {
+  font-size: 1.313rem;
+}
+[class^="font-22"] {
+  font-size: 1.375rem;
+}
+[class^="font-23"] {
+  font-size: 1.438rem;
+}
+[class^="font-24"] {
+  font-size: 1.5rem;
+}
+[class^="font-26"] {
+  font-size: 1.625rem;
+}
+[class^="font-28"] {
+  font-size: 1.75rem;
+}
+[class^="font-30"] {
+  font-size: 1.875rem;
+}
+[class^="font-46"] {
+  font-size: 2.875rem;
+}
+[class^="font-48"] {
+  font-size: 3rem;
+}
+
+[class*="-100"] {
+  font-family: "pretendard-100";
+}
+[class*="-200"] {
+  font-family: "pretendard-200";
+}
+[class*="-300"] {
+  font-family: "pretendard-300";
+}
+[class*="-400"] {
+  font-family: "pretendard-400";
+}
+[class*="-500"] {
+  font-family: "pretendard-500";
+}
+[class*="-600"] {
+  font-family: "pretendard-600";
+}
+[class*="-700"] {
+  font-family: "pretendard-700";
+}
+[class*="-800"] {
+  font-family: "pretendard-800";
+}
+[class*="-900"] {
+  font-family: "pretendard-900";
+}
+
+/* align */
+.text-l {
+  text-align: left !important;
+}
+.text-c {
+  text-align: center !important;
+}
+.text-r {
+  text-align: right !important;
+}
+
+/* ellipsis */
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
